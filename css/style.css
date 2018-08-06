@@ -23,3 +23,22 @@
   height: 100px
 }
 
+header {
+    grid-area: header; 
+}
+
+.main {
+    grid-area: main; 
+}
+
+.sidebar {
+    grid-area: sidebar; 
+}
+
+footer {
+    grid-area: footer; 
+}
+
+
+
+
