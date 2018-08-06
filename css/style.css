@@ -43,6 +43,27 @@ header {
     grid-area: main; 
 }
 
+
+.main img {
+    width: 100%;
+}
+
+
+.main h2 {
+    font-size: 32px;
+    margin: 1rem 0;
+    color: #50c6db;
+}
+
+
+.main p {
+    font-size: 1rem;
+    margin-bottom: .75rem;
+  
+}
+
+
+
 .sidebar {
     grid-area: sidebar; 
     padding: 20px;
@@ -61,8 +82,14 @@ header {
     padding: .25rem 0;
 }
 
+
+
 footer {
-    grid-area: footer; 
+    grid-area: footer;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #9f9c9c;
 }
 
 a {
