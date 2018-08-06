@@ -28,6 +28,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    color: #9f9c9c;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b0e0ea;
+    padding: 20px 0;
 }
 
 .main {
@@ -61,4 +65,11 @@ nav li {
 
 header button {
     height: 50px;
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background-color: #51bb7b;
 }
